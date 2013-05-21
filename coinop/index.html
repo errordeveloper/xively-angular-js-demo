@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.6/angular.js"></script>
+    <script src="https://d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.3.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div ng-controller="CoinOpCtrl">
+      <ul>
+        <li><span>Q: Do I have a user present?<br>A: {{datastreams.user_present}}</span></li>
+        <li><span>Q: How many coins do I have?<br>A: {{datastreams.total_coins}}</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
